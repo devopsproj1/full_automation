@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/selenium_testng/src/test/java/Testng/default_asci_order_test.java">
+        <classes>
+            <class name="Testng.default_asci_order_test">
+                <methods>
+                    <include name="apple"/>
+                    <include name="boy"/>
+                    <include name="aascifirst"/>
+                    <include name="demo"/>
+                    <include name="AA"/>
+                    <include name="aa"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/selenium_testng/src/test/java/Testng/provid_priority_to_method.java">
+        <classes>
+            <class name="Testng.provid_priority_to_method">
+                <methods>
+                    <include name="APPLE"/>
+                    <include name="apple"/>
+                    <include name="boy"/>
+                    <include name="aascifirst"/>
+                    <include name="demo"/>
+                    <include name="AA"/>
+                    <include name="aa"/>
+                    <include name="aaabb"/>
+                    <include name="AAAA"/>
+                    <include name="zero"/>
+                    <include name="negative"/>
+                    <include name="negfour"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
